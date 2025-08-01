@@ -1,0 +1,14 @@
+name: Hola Mundo
+on:
+  push:
+    branches: [main]
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Imprimir saludo
+        run: echo "Hola desde GitHub Actions"
+
+#Ejercicio 1: Estructura básica del workflow
+#Crea un workflow con el nombre
+    
