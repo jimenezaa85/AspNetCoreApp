@@ -7,5 +7,5 @@ namespace WebApi.Controllers;
 public class HelloController : ControllerBase
 {
     [HttpGet]
-    public IActionResult Get() => Ok("Hola desde la API");
+    public IActionResult Get() => Ok("Cambio mensaje para hacer commit");
 }
