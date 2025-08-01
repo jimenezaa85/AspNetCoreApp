@@ -1,0 +1,13 @@
+name: Ejercicio 2
+on:
+  push: 
+    branches:
+      - main
+    paths: ["WebApi/Controllers/**"]
+    
+jobs:
+  mensaje:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar mensaje
+        run: echo "Ejericio 2"
