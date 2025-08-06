@@ -1,0 +1,25 @@
+# Ignore Visual Studio folder
+.vs/
+
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Dotnet tools
+/.tools/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Other
+*.db
+*.sqlite
